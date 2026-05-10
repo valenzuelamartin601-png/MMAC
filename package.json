@@ -1,0 +1,17 @@
+{
+  "name": "mmac-agencia-comunicacional",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://pages.github.io/mmac/",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "gh-pages": "latest",
+    "vite": "latest"
+  }
+}
